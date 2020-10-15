@@ -1,0 +1,20 @@
+<head>
+<title>conversion of days in yy:mm:dd</title>
+</head>
+<body> 
+<script>
+
+var days = window.prompt("Enter Number") 
+   document.write(days,"<br>")
+   var months,years,x,d
+    years=parseInt(days/365);  //465 days
+    x=days%365;            // x will gives extra days over 1 year(span of  
+                           //      years ) 100 exra days
+    months=parseInt(x/30)  // months will give extra days into months (3)
+                           	
+    d=x%30                // no of extra days(10)
+document.write("There are "+years+" years "+months+" Months and "+d+" days")
+
+</script>
+</body>
+</html>

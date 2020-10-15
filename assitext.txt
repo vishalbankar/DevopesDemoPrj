@@ -1,0 +1,27 @@
+1. Take a input number from user and check the number is prime or not
+2. Take a noofdays from users and convert it into years, months and days
+3. Take a digit for and reverse it for eg: 34578 => 87543
+4. Take a temprature and coversion method from user and calculate it with the given method
+for eg: 1, f = 1C = 33.8F
+for eg: 1, c = -17.22C
+5. Calculate the fibonacii series for the given number
+6. Print all the prime numbers from 1 to 100
+7. Take a year as input and check if the year is leap year
+8. Find out all the numbers between 1 to 500 which are square of any numbers
+4,9,16,25,36...484
+9. Print the pascal triangle
+*
+**
+*
+**
+***
+**
+*
+**
+*
+10. print below pattern
+1
+121
+12321
+1234321
+123454321document.write("<br/>");

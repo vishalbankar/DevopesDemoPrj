@@ -1,0 +1,37 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+   <script>
+   
+   $(document).ready(function(){
+    $("#upper").click(function(){
+	$("#lower").slideToggle("slow");
+	});
+   
+  });
+ </script>
+ <style>
+    #upper,#lower{
+	 padding:10px;
+	 text-align:center;
+	 background-color:orange;
+	 border:1px solid black;
+	}
+	#lower{
+	display:none;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	padding:50px;
+	}
+   
+ </style>
+</head>
+<body> 
+      
+     <div id="upper">click for more info...</div>
+     <div id="lower"> karte sab he batata koyi nahi....<br>
+	    kue hila dala na ....
+	 </div>
+	 
+	   
+</body>
+</html>
